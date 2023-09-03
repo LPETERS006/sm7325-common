@@ -233,6 +233,11 @@ ro.config.vc_call_vol_steps=11
 ro.vendor.nfc.repair=1
 ro.vendor.se.type=eSE,HCE,UICC
 
+# Others - VoLTE / VT / WFC
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf.scroll_opt=true
